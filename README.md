@@ -18,7 +18,6 @@ The rules are simple: Two players race to reach 100 points. Each turn, a player 
 
 | Behavior |   Input   |   Output   |
 |----------|:---------:|:----------:|
-| The program can count.| onClick | 1, 2, 3, etc |
 | The program can generate random numbers from 1 to 6.| onClick | 1, 2, 3, 4, 5, or 6 |
 | The program can add.| 1 + 2 | 3 |
 | The program can add >= 100 and stop. | 22 + 23 + 25 + 21 | 101 = stop program |
@@ -27,7 +26,7 @@ The rules are simple: Two players race to reach 100 points. Each turn, a player 
 | The program can be stopped programmatically before it reaches 100 when a random number of 1 is generated, giving control to a second object (player object). | 1 | give control to second object |
 | The program stops when a total of 100+ is reached by either player object. | 100+ | game over |
 | The program can be reset at any time | onClick | reset |
-| Player objects can display player data. | name, score | Bob, 100 |
+| Player objects can store player data. | name, score | Bob, 100 |
 
 ###This is the initial release (1.0).
 
