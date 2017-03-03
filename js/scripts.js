@@ -34,10 +34,10 @@ function resetFunction() {
 var playerOne = new Player("inPuttedName", 0 , 0, 0);
 var playerTwo = new Player("Hal", 0, 0, 0);
 
-// function rollsAdded(){
-//     turnScore = turnScore + rollScore;
-//     console.log(turnScore);
-// }
+function rollsAdded(){
+    turnScore = turnScore + rollScore;
+    console.log(turnScore);
+}
 //
 // function gameOver(){
 //   if (turnScore >= 10) {
